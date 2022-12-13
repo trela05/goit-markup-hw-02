@@ -1,0 +1,191 @@
+/* font families
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* HEADER */
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+header {
+	background-color: #ffff;
+	height: 80px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+nav span {
+	color: #2196f3;
+}
+
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	font-size: 26px;
+}
+
+.menu {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0, 02em;
+}
+
+.menu:hover {
+	color: #2196f3;
+}
+
+.menu:focus {
+	color: #2196f3;
+}
+
+.contact {
+	color: #757575;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0, 02em;
+}
+
+.contact:hover {
+	color: #2196f3;
+}
+
+.contact:focus {
+	color: #2196f3;
+}
+
+/* MAIN SITE */
+
+.main-header {
+	background-color: #2f303a;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 136%;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+}
+
+.main-button {
+	background-color: #2196f3;
+	font-weight: 700;
+	line-height: 188%;
+	letter-spacing: 0.06em;
+	color: #ffff;
+	cursor: pointer;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.article-title {
+	color: #212121;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0, 03em;
+	text-transform: uppercase;
+}
+.article {
+	color: #757575;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0, 03em;
+}
+
+.team {
+	background-color: #f5f4fa;
+}
+
+.people {
+	font-weight: 500;
+	letter-spacing: 0, 03em;
+}
+
+.duties {
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #2f303a;
+}
+
+.footer-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0, 03em;
+	text-decoration: none;
+	color: #ffff;
+}
+
+footer span {
+	color: #2196f3;
+}
+
+.footer-address {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0, 03em;
+	color: #ffffff;
+	font-style: normal;
+}
+
+.footer-contact {
+	font-style: normal;
+	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 171%;
+	letter-spacing: 0, 03em;
+}
+
+/* Portfolio  */
+
+.filter-buttons {
+	background: #f5f4fa;
+	color: black;
+	font-weight: 500;
+	line-height: 26px;
+	letter-spacing: 0, 03em;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.filter-buttons:hover {
+	background-color: #2196f3;
+	color: white;
+}
+
+.projects {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0, 06em;
+	color: #212121;
+}
+
+.tech {
+	color: #757575;
+	line-height: 30px;
+	letter-spacing: 0, 03em;
+}
